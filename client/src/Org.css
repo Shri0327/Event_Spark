@@ -1,0 +1,238 @@
+.shri{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    
+}
+
+.lightning{
+    height: 280px;
+    
+}
+
+.card:hover {
+    background-color: rgb(119, 119, 255); /* Change the background color on hover */
+  }
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+
+  .typ{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .typeofevent{
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .imgss{
+    max-width: 10rem;
+    margin-left: 50px;
+  }
+
+  .imgg{
+    max-width: 10rem;
+    margin-left: 35px;
+  }
+.cardtitle{
+   padding: 15px;
+}
+  .budget{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .butt{
+    margin-left: 80px;
+    height: 25px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+
+  .butt-1{
+    margin-left: 25px;
+    height: 25px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+
+  .butt-prev{
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+  }
+
+  .butt-next{
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+  }
+
+  .cards {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid #000;
+    perspective: 1000px;
+    box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+ 
+    transition: 0.5s;
+  }
+
+  .cards:hover {
+    background-color: rgb(119, 119, 255); /* Change the background color on hover */
+  }
+
+  .cards img{
+    mix-blend-mode: multiply;
+  }
+
+  .pricerange{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    height: 350px;
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+
+  .pricerange-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    height: 350px;
+    width: 600px;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+
+.pr{
+    display: flex;
+    margin-left: 150px;
+}
+
+  .pbar{
+    display: flex;
+    margin: 30px;
+  
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    border-radius: 5px; 
+  }
+  
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 100px; 
+    height: 200px; 
+    cursor: pointer; 
+  }
+  
+  .max{
+    font-size: 40px;
+    padding: 20px;
+  }
+  
+  .pricerange:hover {
+    background-color: rgb(119, 119, 255); 
+    color: white;
+    transition: 1s;
+  }
+
+  .pricerange-2:hover {
+    background-color: rgb(119, 119, 255); 
+    color: white;
+    transition: 1s;
+  }
+
+ 
+.add-det{
+  margin-left: 10px;
+height: 230px;
+width: 570px;
+}
+
+.det{
+  font-size: 20px;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+
+.shrilabel {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.shriinput {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.online-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  margin-bottom: 40px;
+  width: 500px;
+  margin-left: 500px;
+}
+.online-post form {
+  display: flex;
+  flex-direction: column;
+}
+
+.step{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.request{
+  margin-top: 100px;
+  margin-left: 50px;
+}
